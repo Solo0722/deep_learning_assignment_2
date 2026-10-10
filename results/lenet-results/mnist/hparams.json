@@ -1,0 +1,9 @@
+{
+  "dataset": "mnist",
+  "epochs": 15,
+  "batch_size": 128,
+  "lr": 0.001,
+  "optimizer": "adam",
+  "n_val": 6000,
+  "split_seed": 0
+}

@@ -1,0 +1,511 @@
+{
+  "baseline": {
+    "name": "baseline",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "width_3_8": {
+    "name": "width_3_8",
+    "convs": [
+      {
+        "out": 3,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 8,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "width_12_32": {
+    "name": "width_12_32",
+    "convs": [
+      {
+        "out": 12,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 32,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "width_24_64": {
+    "name": "width_24_64",
+    "convs": [
+      {
+        "out": 24,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 64,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "width_48_128": {
+    "name": "width_48_128",
+    "convs": [
+      {
+        "out": 48,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 128,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "conv_1": {
+    "name": "conv_1",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "conv_3": {
+    "name": "conv_3",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 2,
+        "pool": false
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "conv_4": {
+    "name": "conv_4",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 2,
+        "pool": false
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 2,
+        "pool": false
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "fc_0": {
+    "name": "fc_0",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "fc_1": {
+    "name": "fc_1",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "fc_3": {
+    "name": "fc_3",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84,
+      64
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "act_relu": {
+    "name": "act_relu",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "relu",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "act_leaky_relu": {
+    "name": "act_leaky_relu",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "leaky_relu",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "act_gelu": {
+    "name": "act_gelu",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "gelu",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "pool_max": {
+    "name": "pool_max",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "max",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "kernel_3": {
+    "name": "kernel_3",
+    "convs": [
+      {
+        "out": 6,
+        "k": 3,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 3,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "kernel_7": {
+    "name": "kernel_7",
+    "convs": [
+      {
+        "out": 6,
+        "k": 7,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 7,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.0
+  },
+  "batchnorm": {
+    "name": "batchnorm",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": true,
+    "dropout": 0.0
+  },
+  "dropout_20": {
+    "name": "dropout_20",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.2
+  },
+  "dropout_50": {
+    "name": "dropout_50",
+    "convs": [
+      {
+        "out": 6,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      },
+      {
+        "out": 16,
+        "k": 5,
+        "pad": 0,
+        "pool": true
+      }
+    ],
+    "fc": [
+      120,
+      84
+    ],
+    "activation": "tanh",
+    "pool": "avg",
+    "batchnorm": false,
+    "dropout": 0.5
+  }
+}
